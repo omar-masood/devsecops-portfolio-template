@@ -1,5 +1,5 @@
 # Stage 1: Install dependencies
-FROM python:3.12-slim AS builder
+FROM python:3.12-alpine AS builder
 
 WORKDIR /build
 
@@ -7,10 +7,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
 
 # Stage 2: Runtime image
-FROM python:3.12-slim
+FROM python:3.12-alpine
 
 # Security: non-root user
-RUN groupadd -r appuser && useradd -r -g appuser -d /app -s /sbin/nologin appuser
+RUN addgroup -S appuser && adduser -S -G appuser -h /app -s /sbin/nologin appuser
 
 WORKDIR /app
 
