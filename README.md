@@ -77,8 +77,8 @@ This project demonstrates end-to-end ownership of a production deployment pipeli
 
 ```bash
 # Clone your fork
-git clone https://github.com/<YOUR_USERNAME>/container-devsecops-template.git
-cd container-devsecops-template
+git clone https://github.com/<YOUR_USERNAME>/devsecops-portfolio-template.git
+cd devsecops-portfolio-template
 
 # Create the local cluster with ArgoCD + Vault
 chmod +x scripts/bootstrap.sh
@@ -119,7 +119,7 @@ Visit `http://localhost:5000` for your portfolio and `http://localhost:8080` for
 ## Project Structure
 
 ```
-container-devsecops-template/
+devsecops-portfolio-template/
 ├── .github/workflows/
 │   └── ci.yaml              # DevSecOps pipeline
 ├── app/

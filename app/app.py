@@ -10,7 +10,7 @@ unavailable, the app degrades gracefully — static content always renders.
 Environment variables:
     STUDENT_NAME        Your full name
     GITHUB_USERNAME     Your GitHub username
-    GITHUB_REPO         Repository name (default: container-devsecops-template)
+    GITHUB_REPO         Repository name (default: devsecops-portfolio-template)
     VAULT_ADDR          Vault server address (default: http://vault.default:8200)
     VAULT_TOKEN         Vault token for authentication
     VAULT_SECRET_PATH   Path to GitHub App credentials in Vault
@@ -55,7 +55,7 @@ app.logger.setLevel(logging.INFO)
 # Identity
 STUDENT_NAME = os.environ.get("STUDENT_NAME", "Your Name")
 GITHUB_USERNAME = os.environ.get("GITHUB_USERNAME", "your-github-username")
-GITHUB_REPO = os.environ.get("GITHUB_REPO", "container-devsecops-template")
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "devsecops-portfolio-template")
 BIO = os.environ.get("BIO", "DevOps engineer building secure, automated infrastructure.")
 LINKEDIN_URL = os.environ.get("LINKEDIN_URL", "")
 WEBSITE_URL = os.environ.get("WEBSITE_URL", "")

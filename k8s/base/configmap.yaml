@@ -5,7 +5,7 @@ metadata:
 data:
   STUDENT_NAME: "Your Name"
   GITHUB_USERNAME: "your-github-username"
-  GITHUB_REPO: "container-devsecops-template"
+  GITHUB_REPO: "devsecops-portfolio-template"
   BIO: "DevOps engineer building secure, automated infrastructure."
   VAULT_ADDR: "http://vault.default:8200"
   VAULT_SECRET_PATH: "secret/data/github-app"
