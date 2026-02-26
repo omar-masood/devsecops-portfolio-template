@@ -8,7 +8,5 @@ resources:
 
 images:
 - name: ghcr.io/OWNER/devops-portfolio
-  newTag: local
-- name: ghcr.io/ziyotek-edu/devops-portfolio
   newName: ghcr.io/ziyotek-edu/devops-portfolio
   newTag: sha-e485893

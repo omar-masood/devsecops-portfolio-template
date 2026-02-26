@@ -367,7 +367,7 @@ jobs:
         run: |
           SHORT_SHA=$(echo "${{ github.sha }}" | head -c 7)
           cd k8s/base
-          kustomize edit set image ${{ env.IMAGE_NAME }}=${{ env.IMAGE_NAME }}:sha-${SHORT_SHA}
+          kustomize edit set image ghcr.io/OWNER/devops-portfolio=${{ env.IMAGE_NAME }}:sha-${SHORT_SHA}
           echo "Updated image tag to sha-${SHORT_SHA}"
           cat kustomization.yaml
 
