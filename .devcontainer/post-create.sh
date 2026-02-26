@@ -3,9 +3,10 @@ set -e
 
 echo "Setting up DevSecOps Portfolio environment..."
 
-echo "Installing additional tools (vim, unzip)..."
+echo "Installing additional tools (vim, unzip, git-lfs)..."
 sudo apt-get update -qq
-sudo apt-get install -y vim unzip
+sudo apt-get install -y vim unzip git-lfs
+git lfs install
 
 ARCH="$(uname -m)"
 case "$ARCH" in
