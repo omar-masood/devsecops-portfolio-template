@@ -8,5 +8,5 @@ resources:
 
 images:
 - name: ghcr.io/OWNER/devops-portfolio
-  newName: ghcr.io/ziyotek-edu/devops-portfolio
-  newTag: sha-5d3914a
+  newName: ghcr.io/omar-masood/devops-portfolio
+  newTag: sha-ed643f2
