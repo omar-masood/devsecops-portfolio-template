@@ -6,7 +6,7 @@ data:
   STUDENT_NAME: "Omar Masood"
   GITHUB_USERNAME: "omar-masood"
   GITHUB_REPO: "devsecops-portfolio-template"
-  BIO: "DevOps engineer building secure, automated infrastructure."
+  BIO: "junior DevOps engineer building secure, automated infrastructure."
   VAULT_ADDR: "http://vault.default:8200"
   VAULT_SECRET_PATH: "secret/data/github-app"
   LINKEDIN_URL: "www.linkedin.com/in/omar-masood-6873a215a"
